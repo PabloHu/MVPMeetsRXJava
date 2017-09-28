@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".View.View.mainactivity.MainActivity">
+
+    <TextView
+        android:id="@+id/tvOutputString"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Final value"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:id="@+id/etInputString"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="type a string" />
+
+
+        <Button
+            android:id="@+id/btnJust"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="buttonClicks"
+            android:text="JUST Button" />
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnRange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="buttonClicks"
+        android:text="Range(1,5) of (1,2,3,4,5,6,7,8,9,10)" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnDelay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="buttonClicks"
+            android:text="Range(1,6) Delay 6 secs"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/btnConcat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="buttonClicks"
+            android:text="concat"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/btnMerge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="buttonClicks"
+            android:text="merge"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnMaterialize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="buttonClicks"
+            android:text="Materialize(1,5) "
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/btnRepeat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="buttonClicks"
+            android:text="repeat (1,5)" />
+
+        <Button
+            android:id="@+id/btnSubscribe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="buttonClicks"
+            android:text="Subcribe"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnObserverOn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="buttonClicks"
+            android:text="Observer(1,10) "
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/btnInterval"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="buttonClicks"
+            android:text="Interval)" />
+
+        <Button
+            android:id="@+id/btnFilter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="buttonClicks"
+            android:text="Filter"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnTake"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="buttonClicks"
+            android:text="Take 5"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/btnFlatMap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="buttonClicks"
+            android:text="FlatMap" />
+
+        <Button
+            android:id="@+id/btnMap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="buttonClicks"
+            android:text="Map"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnTimer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="buttonClicks"
+            android:text="Timer"
+            android:layout_weight="1"/>
+
+
+    </LinearLayout>
+</LinearLayout>
